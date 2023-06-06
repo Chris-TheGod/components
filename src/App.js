@@ -21,7 +21,9 @@ export const App = () => {
         <Button secondary>Hide ads!</Button>
       </div>
       <div>
-        <Button primary>Something...</Button>
+        <Button primary rounded>
+          Something...
+        </Button>
       </div>
     </div>
   );
