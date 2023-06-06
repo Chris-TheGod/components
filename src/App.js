@@ -5,19 +5,23 @@ export const App = () => {
   return (
     <div>
       <div>
-        <Button>Click me!</Button>
+        <Button success rounded outline>
+          Click me!
+        </Button>
       </div>
       <div>
-        <Button>Buy Now!</Button>
+        <Button danger outline>
+          Buy Now!
+        </Button>
       </div>
       <div>
-        <Button>See deal!</Button>
+        <Button warning>See deal!</Button>
       </div>
       <div>
-        <Button>Hide ads!</Button>
+        <Button secondary>Hide ads!</Button>
       </div>
       <div>
-        <Button>Something...</Button>
+        <Button primary>Something...</Button>
       </div>
     </div>
   );
