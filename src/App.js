@@ -3,10 +3,14 @@ import { Button } from "./Button";
 import { GoBell, GoCloudDownload, GoDatabase } from "react-icons/go";
 
 export const App = () => {
+  const handleClick = () => {
+    console.log("click");
+  };
+
   return (
     <div>
       <div>
-        <Button primary rounded>
+        <Button primary rounded onClick={handleClick}>
           <GoBell />
           Click me!
         </Button>
